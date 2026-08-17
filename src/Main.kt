@@ -21,6 +21,21 @@ fun main(){
     miTexto = null
     println("La longitud ahora es: ${miTexto?.length}")
 
+    println("\n--- Parte 3: Lógica condicional con when ---")
+
+    val numeroDia: Int = 4
+
+    val nombreDia = when (numeroDia){
+        1-> "Lunes"
+        2-> "Martes"
+        3-> "Miercoles"
+        4-> "Jueves"
+        5-> "Viernes"
+        6-> "Sábado"
+        7-> "Domingo"
+        else-> "Número inválido. Debe ser del 1 al 7."
+    }
+    println("El día número $numeroDia corresponde a $nombreDia")
 
 
 }
