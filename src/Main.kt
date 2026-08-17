@@ -37,5 +37,25 @@ fun main(){
     }
     println("El día número $numeroDia corresponde a $nombreDia")
 
+    /*
+--- PREGUNTAS DE REFLEXIÓN ---
 
+1. ¿Qué diferencias y similitudes clave observaste entre Kotlin y Java en esta actividad?
+- Similitudes: Las operaciones matemáticas funcionan exactamente igual y ambos lenguajes
+  comparten la misma estructura de trabajo (carpeta src, uso de funciones principales).
+
+- Diferencias: Kotlin es mucho más limpio y directo. No exige usar punto y coma (;) al final
+  de cada línea, infiere el tipo de dato automáticamente, y reemplaza el extenso bloque 'switch'
+  de Java por la estructura 'when', eliminando la necesidad de escribir la palabra 'break' en cada caso.
+
+2. ¿Cómo podrías aplicar lo aprendido sobre la seguridad ante nulos (Null Safety) y la expresión when
+    en futuros proyectos de desarrollo de aplicaciones móviles?
+
+- Null Safety: Es vital en las apps móviles para evitar que la aplicación se cierre de golpe (crashes).
+  Si la app consulta información a internet y un dato falla o llega vacío, el operador '?.' protegerá la
+  pantalla, permitiendo mostrar un mensaje amigable al usuario en lugar de colapsar.
+- when: Será la herramienta perfecta para gestionar los menús de navegación (ej. si toca el ícono 1 abrir 'Inicio',
+  si toca el 2 abrir 'Perfil') y para manejar los estados visuales de una pantalla (Cargando, Éxito, Error) con un
+  código muy fácil de leer.
+*/
 }
